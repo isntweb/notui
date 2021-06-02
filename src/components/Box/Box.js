@@ -1,3 +1,4 @@
+import PropTypes from "../prop-types";
 import useStyles from "./styles";
 
 function Box({ error, text, children }) {
@@ -10,16 +11,16 @@ function Box({ error, text, children }) {
   );
 }
 
-// Box.propTypes = {
-//   error: PropTypes.string,
-//   text: PropTypes.string,
-//   children: PropTypes.children,
-// };
-//
-// Box.defaultProps = {
-//   error: undefined,
-//   text: undefined,
-//   children: undefined,
-// };
+Box.propTypes = {
+  error: PropTypes.string,
+  text: PropTypes.string,
+  children: PropTypes.children,
+};
+
+Box.defaultProps = {
+  error: undefined,
+  text: undefined,
+  children: undefined,
+};
 
 export default Box;
