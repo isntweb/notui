@@ -1,0 +1,9 @@
+{
+  "name": "notui",
+  "version": "0.0.1",
+  "description": "not another ui library!",
+  "main": "index.js",
+  "repository": "git@github.com:isntweb/notui.git",
+  "author": "Jacob Chvatal <jake@isnt.online>",
+  "license": "MIT"
+}
