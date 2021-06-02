@@ -1,3 +1,3 @@
-#+TITLE: notui
+# notui
 
 Not another UI library!
