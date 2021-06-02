@@ -2,3 +2,4 @@ node_modules/
 .direnv/
 !.direnv/.git-keep
 dist/
+yarn-error.log

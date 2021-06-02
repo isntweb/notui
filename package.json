@@ -1,11 +1,11 @@
 {
   "name": "@isntweb/notui",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": false,
   "license": "MIT",
   "files": [
     "dist",
-    "README.org"
+    "README.md"
   ],
   "repository": {
     "type": "git",
