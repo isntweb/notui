@@ -1,5 +1,6 @@
 import { addons } from '@storybook/addons';
 import { themes } from "@storybook/theming";
+import customTheme from './Theme';
 
 // options can be found here: https://storybook.js.org/docs/react/configure/features-and-behavior
 
@@ -10,7 +11,7 @@ addons.setConfig({
   panelPosition: 'bottom',
   enableShortcuts: true,
   isToolshown: true,
-  theme: themes.dark,
+  theme: customTheme,
   selectedPanel: undefined,
   initialActive: 'sidebar',
   sidebar: {
