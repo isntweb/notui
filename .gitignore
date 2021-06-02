@@ -3,3 +3,4 @@ node_modules/
 !.direnv/.git-keep
 dist/
 yarn-error.log
+storybook-static/
