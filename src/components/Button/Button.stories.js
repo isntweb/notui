@@ -6,7 +6,7 @@ import { ThemeProvider } from 'react-jss';
 import theme from "../../theme";
 
 export default {
-  title: 'Example/Button',
+  title: 'Button',
   component: Button,
   argTypes: {
     backgroundColor: { control: 'color' },

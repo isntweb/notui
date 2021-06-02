@@ -6,7 +6,7 @@ import { ThemeProvider } from 'react-jss';
 import theme from "../../theme";
 
 export default {
-  title: 'Example/Box',
+  title: 'Box',
   component: Box,
   argTypes: {
     error: { control: 'boolean' },
