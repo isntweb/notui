@@ -1,22 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import { Title, Subtitle, Box, Spinner } from "./components";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Box>
+            <Spinner/>
+            <Title>Welcome to NotUI!</Title>
+            <Subtitle>So true</Subtitle>
+            <a
+              className="App-link"
+              href="https://isntweb.github.io/notui"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Check out the docs
+            </a>
+        </Box>
       </header>
     </div>
   );
