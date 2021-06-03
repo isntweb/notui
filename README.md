@@ -5,4 +5,4 @@ Not another UI library!
 
 ## Goals
 - Single source of component configuration, supporting multiple ecosystems (TypeScript, JavaScript, and Clojurescript React ecosystems).
-- Follow the [styled system theme specification](https://styled-system.com/theme-specification/).
+- Follow the [styled system theme specification](https://styled-system.com/theme-specification/), providing a light and dark theme.

@@ -1,8 +1,11 @@
 {
   "name": "@isntweb/notui",
-  "version": "0.0.9",
+  "version": "0.0.11",
   "homepage": "https://isntweb.github.io/notui",
   "private": false,
+  "main": "dist/index.js",
+  "author": "isntweb contributors",
+  "bugs": "https://github.com/isntweb/notui/issues",
   "license": "MIT",
   "files": [
     "dist",
@@ -12,6 +15,11 @@
     "type": "git",
     "url": "https://github.com/isntweb/notui"
   },
+  "keywords": [
+      "react",
+      "react-component",
+      "notui"
+  ],
   "dependencies": {
     "@babel/cli": "^7.14.3",
     "@babel/preset-env": "^7.14.4",
