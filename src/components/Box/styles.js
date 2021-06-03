@@ -5,17 +5,17 @@ const useStyles = createUseStyles((theme) => ({
     padding: "1em",
     margin: "1em",
     textAlign: "center",
-    border: `2px solid ${theme.black}`,
-    color: theme.black,
-    backgroundColor: theme.white,
+    border: `2px solid ${theme.colors.black}`,
+    color: theme.colors.black,
+    backgroundColor: theme.colors.white,
   },
   errorBox: {
     padding: "1em",
     margin: "1em",
     textAlign: "center",
-    border: `2px solid ${theme.red}`,
-    color: theme.black,
-    backgroundColor: theme.white,
+    border: `2px solid ${theme.colors.red}`,
+    color: theme.colors.black,
+    backgroundColor: theme.colors.white,
   },
 }));
 
