@@ -3,6 +3,11 @@
 
 Not another UI library!
 
+## Technical Choices
+- Lerna to manage monorepo
+- React-JSS to style components, following the styled-system specification for theme configuration
+- Vanilla components when possible; erring on the side of minimal dependencies
+
 ## Goals
 - Single source of component configuration, supporting multiple ecosystems (TypeScript, JavaScript, and Clojurescript React ecosystems).
 - Follow the [styled system theme specification](https://styled-system.com/theme-specification/), providing a light and dark theme.
