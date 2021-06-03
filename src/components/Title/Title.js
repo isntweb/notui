@@ -4,7 +4,7 @@ function Title({ children }) {
   return <h1>{children}</h1>;
 }
 
-Text.propTypes = {
+Title.propTypes = {
   children: PropTypes.children.isRequired,
 };
 

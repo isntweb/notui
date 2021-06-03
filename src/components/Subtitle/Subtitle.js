@@ -1,6 +1,6 @@
 import PropTypes from "../prop-types";
 
-function Text({ children }) {
+function Subtitle({ children }) {
   return <p>{children}</p>;
 }
 
@@ -8,4 +8,4 @@ Text.propTypes = {
   children: PropTypes.children.isRequired,
 };
 
-export default Text;
+export default Subtitle;
