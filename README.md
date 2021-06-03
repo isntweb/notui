@@ -6,3 +6,5 @@ Not another UI library!
 ## Goals
 - Single source of component configuration, supporting multiple ecosystems (TypeScript, JavaScript, and Clojurescript React ecosystems).
 - Follow the [styled system theme specification](https://styled-system.com/theme-specification/), providing a light and dark theme.
+- Monorepo that contains basically everything needed to start a project with the toolkit aside from the framework (React, NextJS - I have no motivation to rewrite those frameworks because I still want access to the ecosystems as needed - at least not now).
+- Template to use to start an application with the framework preinstalled and preconfigured, along with some other preferences I or we have for starting projects.
