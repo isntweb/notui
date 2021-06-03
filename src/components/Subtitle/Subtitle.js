@@ -4,7 +4,7 @@ function Subtitle({ children }) {
   return <p>{children}</p>;
 }
 
-Text.propTypes = {
+Subtitle.propTypes = {
   children: PropTypes.children.isRequired,
 };
 
