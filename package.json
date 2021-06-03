@@ -1,8 +1,8 @@
 {
   "name": "@isntweb/notui",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "homepage": "https://isntweb.github.io/notui",
-  "private": false,
+  "description": "Not another UI library!",
   "main": "dist/index.js",
   "author": "isntweb contributors",
   "bugs": "https://github.com/isntweb/notui/issues",
@@ -21,13 +21,6 @@
     "notui"
   ],
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "@types/jest": "26.0.23",
-    "@types/node": "15.9.0",
-    "@types/react": "17.0.9",
-    "@types/react-dom": "17.0.6",
     "cross-env": "^7.0.3",
     "react-jss": "10.6.0",
     "react-test-renderer": "17.0.2",
@@ -86,6 +79,13 @@
     "@storybook/react": "^6.2.9",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-scripts": "4.0.3"
+    "react-scripts": "4.0.3",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "26.0.23",
+    "@types/node": "15.9.0",
+    "@types/react": "17.0.9",
+    "@types/react-dom": "17.0.6"
   }
 }
