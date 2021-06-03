@@ -1,8 +1,9 @@
-name: npm-publish
+name: Publish to NPM
 on:
   push:
     branches:
-      - main # Change this to your default branch
+      - main
+    paths: ["package.json"] # only trigger the action to publish a new build when package.json is modified; as the action only succeeds when the version name is updated anyways, this saves a lot of time
 
 jobs:
   publish:
