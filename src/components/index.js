@@ -6,13 +6,7 @@ import Subtitle from './Subtitle/Subtitle';
 import Text from './Text/Text';
 import Title from './Title/Title';
 import PropTypes from "./prop-types";
-
-import { ThemeProvider, createUseStyles } from 'react-jss';
-import theme from '../theme';
-
-const NotUIThemeProvider = ({ children }) => (
-    <ThemeProvider theme={theme}>{children}</ThemeProvider>
-);
+import NotUIThemeProvider from "./ThemeProvider";
 
 export {
     Button,
@@ -24,6 +18,4 @@ export {
     Title,
     PropTypes,
     NotUIThemeProvider,
-    ThemeProvider,
-    createUseStyles
 };

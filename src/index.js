@@ -1,17 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
-import { ThemeProvider } from "react-jss";
 
-import theme from "./theme";
+// import { ThemeProvider } from "react-jss";
+import { NotUIThemeProvider } from "./components";
+
+// import theme from "./theme";
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ThemeProvider theme={theme}>
+    <NotUIThemeProvider>
     <App />
-    </ThemeProvider>
+    </NotUIThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
