@@ -1,8 +1,6 @@
 # notui
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/isntweb/notui/blob/main/LICENSE) [![npm version](https://badge.fury.io/js/%40isntweb%2Fnotui.svg)](https://badge.fury.io/js/%40isntweb%2Fnotui)
 
-Not another UI library!
+A themed React component library following the styled-system theme specification, with light and dark theme support. Published as `@isntweb/notui` on npm.
 
-## Goals
-- Single source of component configuration, supporting multiple ecosystems (TypeScript, JavaScript, and Clojurescript React ecosystems).
-- Follow the [styled system theme specification](https://styled-system.com/theme-specification/), providing a light and dark theme.
+---
+*This repository has been archived. See [uln.industries](https://uln.industries) for current work.*
